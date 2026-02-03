@@ -16,6 +16,15 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 5. Identify dependencies and integration points
 6. Create release plan and milestone map
 
+### Role-Specific Planning Activities
+- **Product Manager**: Define success metrics, prioritize backlog, align with stakeholders
+- **Project Manager**: Create timeline, identify dependencies, manage risk register
+- **Developer**: Provide technical estimates, identify technical risks, propose architecture
+- **UX/UI Designer**: Define design deliverables, identify user research needs, establish design timeline
+- **QA/Test Engineer**: Create initial test strategy, estimate testing effort, define quality gates
+- **SRE/DevOps**: Assess infrastructure requirements, plan deployment approach, identify operational constraints
+- **Security Lead**: Conduct threat modeling, identify security requirements, plan security reviews
+
 ## Backlog Item Template
 - Title:
 - Description:
@@ -40,4 +49,12 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Backlog prioritized and estimated
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
-- [ ] Initial test plan / QA approach drafted
+- [ ] Initial test plan / QA approach drafted (**QA/Test Engineer**)
+- [ ] Design deliverables and timeline defined (**UX/UI Designer**)
+- [ ] Infrastructure and deployment approach planned (**SRE/DevOps**)
+- [ ] Security requirements and threat model documented (**Security Lead**)
+- [ ] Cross-role dependencies identified and communicated
+
+---
+
+*Related to Issue #5: Role-specific planning activities - https://github.com/masam23/skills-scale-institutional-knowledge-using-copilot-spaces/issues/5*
